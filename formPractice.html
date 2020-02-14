@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FormPractice</title>
+</head>
+<body>
+    <h1>Register</h1>
+    <form>
+        <label for="first">First Name:</label>
+        <input name="first" id="first" placeholder="First Name" required>
+        
+        <label>Last Name:</label>
+        <input name="last" id="last" placeholder="Last Name" required>
+    <div>
+        <input type="radio">
+        <label>Male</label>
+        <input type="radio" >
+        <label>Female</label>
+        <input type="radio" >
+        <label>Other</label>
+    </div><!--end of gender selection-->
+    
+    <div>
+        <label>email:</label>
+        <input placeholder="email@yourdomain.com" required>
+        <label>password:</label>
+        <input type="password">
+
+    </div> <!--end of email and password div-->
+
+    <div>
+        <label for>Birthday:</label>
+        <select id = "month">
+            <option value="">Month</option>
+            <option value="Jan">Jan</option>
+            <option value="Feb">Feb</option>
+            <option value="Mar">Mar</option>
+            <option value="APR">Apr</option>
+        </select>
+        <select id = "date">
+            <option value="">Day</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+        </select>
+        <select id = "year">
+            <option value="">Year</option>
+            <option value="1978">1978</option>
+            <option value="1979">1979</option>
+            <option value="1980">1980</option>
+            <option value="1981">1981</option>
+        </select>
+        <p>I agree to the terms and conditions
+        <input type="checkbox">
+        </p>
+        <button>Submit</button>        
+    </div>
+    </form>
+    
+</body>
+</html>
